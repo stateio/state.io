@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Chunk";
+  src: url("chunk.eot");
+  src: url("chunk.woff") format("woff"),
+  url("chunk.ttf") format("truetype"),
+  url("chunk.svg#filename") format("svg");
+
+  font-weight: normal;
+  font-style: normal;
+}
+body, p {
+  font-family: 'Georgia', serif;
+ }
+
+h1 {
+  font-family: "Chunk";
+  font-size: 80px;
+  font-weight: normal;
+  line-height: 65px;
+
+}
+header {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+.center {
+  display: inline-block;
+  text-align: left;
+}
+
