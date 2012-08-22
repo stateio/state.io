@@ -12,21 +12,55 @@ body, p {
   font-family: 'Georgia', serif;
  }
 
+
 h1 {
   font-family: "Chunk";
   font-size: 80px;
   font-weight: normal;
   line-height: 65px;
+  color: white;
 
 }
-header {
-  margin-top: 20px;
-  width: 100%;
-  text-align: center;
-}
-.center {
-  display: inline-block;
+
+.logo {
+  width: 640px;
+  padding-top: 30%;
   text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.logo h2 {
+  font-size: 30px;
+  color:white;
+}
+h3 {
+  margin-top: 20px;
+  color: white;
+}
+
+h3.normal {
+  font-weight: normal;
+}
+
+.bg {
+  background: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.center {
+  text-align: center
 }
 
 .kern {
