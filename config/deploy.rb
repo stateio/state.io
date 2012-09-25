@@ -1,5 +1,5 @@
 set :application, "state.io"
-set :repository,  "git@github.com:phillmv/state.io.git"
+set :repository,  "git@github.com:stateio/state.io.git"
 set :use_sudo, false
 set :scm, :git
 set :deploy_to, "/var/www/#{application}"
