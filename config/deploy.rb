@@ -4,7 +4,7 @@ set :use_sudo, false
 set :scm, :git
 set :deploy_to, "/var/www/#{application}"
 
-role :web, "okayfail.com"
+role :web, "phillmv@okayfail.com"
 
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
