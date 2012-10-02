@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <title>State Machinery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="State.io - State Machinery - Software development and security. Ruby on Rails and mobile security training."/>
+    <meta name="description" content="State.io - State Machinery - Software development and security auditing. Ruby on Rails and threat assessments."/>
     <meta name="author" content="Phillip Mendonça-Vieira">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -16,12 +18,11 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" />
     <script src="js/jquery-1.8.2.min.js"></script>
-    <script src="js/jquery.scrollto.min.js"></script>
     <script type="text/javascript">
       $(function() {
           $(".logo a").click(function(e) {
             e.preventDefault();
-            $("#intro").ScrollTo();
+            $('html,body').animate({scrollTop: $("#intro").offset().top}, 1000);
             });
           });
     </script>
@@ -52,6 +53,8 @@
         <h3 class="normal">Say hello@state.io<br/><a href="#intro">Find out <u>more</u>.</a></h3>
       </div>
     </div>
+    <br/>
+    <br/>
 
     <section id="intro">
       <h1 class="hey">Why, hello there.</h1>
@@ -65,8 +68,8 @@
     <section id="services">
     <h1 class="hey">Our services include:</h1>
     <div class="row-fluid development">
-      <div class="span3">
-        <img src="img/app.jpg">
+      <div id="app-img" class="span3">
+        &nbsp;
       </div>
       <div class="span9">
         <h1>Development</h1>
@@ -78,8 +81,8 @@
     </div>
 
     <div class="row-fluid">
-      <div class="span3">
-        <img src="img/security.jpg">
+      <div id="security-img" class="span3">
+        &nbsp;
       </div>
       <div class="span9">
         <h1>Security</h1>
@@ -100,15 +103,15 @@
         &nbsp;
       </div>
       <div class="span3">
-        <a href="http://www.bell.ca"><img src="img/clients_bell.gif" style="width: 100px;"/></a></div>
+        <a href="http://www.bell.ca"><img id="bell" src="img/clients_bell.gif"></a></div>
       <div class="span3">
-        <a href="http://www.exclaim.ca"><img src="img/clients_exclaim.gif" style="width: 200px; margin-bottom: 10px;" /></a>
+        <a href="http://www.exclaim.ca"><img id="exclaim" src="img/clients_exclaim.gif"></a>
       </div>
       <div class="span1">
         &nbsp;
       </div>
       <div class="span3">
-        <a href="http://www.thecouncil.on.ca"><img src="img/clients_council.png" /></a>
+        <a href="http://www.thecouncil.on.ca"><img id="council" src="img/clients_council.png" /></a>
       </div>
     </div>
     </section>
@@ -116,8 +119,8 @@
     <section id="team">
     <h1 class="hey">Lastly, we consist of:</h1>
     <div class="row-fluid">
-      <div class="span2">
-        <img src="img/max_thumb.jpg">
+      <div id="max-img" class="span2">
+        &nbsp;
       </div>
 
       <div class="span8">
@@ -131,8 +134,8 @@
     </div>
 
     <div class="row-fluid">
-      <div class="span2">
-        <img src="img/phill_thumb.jpg">
+      <div id="phill-img" class="span2">
+        &nbsp;
       </div>
       <div class="span8" >
         <p><strong><a href="http://okayfail.com">Phillip Mendonça-Vieira</a></strong> has always been into computers. After working for large financial institutions, he found himself consulting for an early-stage startup and hasn't looked back since.</p>
@@ -156,7 +159,7 @@
         <h2>You can reach us by telephone at +1 (877) 828-8881</h2>
 
       </div>
-      <div class="span3">
+      <div id="map-img" class="span3">
         <a href="https://maps.google.com/maps?q=342+Queen+St+W,+Toronto,+Toronto+Division,+Ontario+M5V+2A5,+Canada&hl=en&sll=37.0625,-95.677068&sspn=38.41771,75.673828&geocode=FYsImgIdeIZE-w&hnear=342+Queen+St+W,+Toronto,+Toronto+Division,+Ontario+M5V+2A5,+Canada&t=m&z=16"><img src="img/street2.png"></a>
       </div>
     </div>
