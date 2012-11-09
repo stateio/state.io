@@ -20,7 +20,7 @@
     <script src="js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript">
       $(function() {
-          $(".logo a").click(function(e) {
+          $("a.scroll").click(function(e) {
             e.preventDefault();
             $('html,body').animate({scrollTop: $("#intro").offset().top}, 1000);
             });
@@ -50,7 +50,8 @@
         <br/>
         <h2>We make software.<br/>We make it safe.</h2>
         <br/>
-        <h3 class="normal">Say hello@state.io<br/><a href="#intro">Find out <u>more</u>.</a></h3>
+        <h3 class="normal">Say hello@state.io<br/><a
+        href="#intro" class="scroll">Find out <u>more</u></a>, or check out our <a href="http://finite.state.io"><u>blog</u></a>.</h3>
       </div>
     </div>
     <br/>
