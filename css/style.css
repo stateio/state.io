@@ -83,6 +83,8 @@ h3.normal {
   background-image: url("../img/security.jpg");
   background-repeat: no-repeat;
 }
+
+
 #app-img {
   background-image: url("../img/app.jpg");
   background-repeat: no-repeat;
@@ -123,7 +125,8 @@ h3.normal {
     font-size: 14px;
   }
 
-  #app-img, #security-img { 
+     
+  #app-img, #security-img {
     height: 190px;
     background-size: 190px;
   }
@@ -144,6 +147,10 @@ h3.normal {
     width: 200px;
     padding-top: 15px;
   }
+
+  #gemcanary {
+     width: 200px;
+   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { 
@@ -170,7 +177,7 @@ h3.normal {
     font-size: 14px;
   }
 
-   #app-img, #security-img { 
+  #app-img, #security-img { 
     height: 250px;
     background-size: 250px;
     background-position-x: -50px;
@@ -195,13 +202,16 @@ h3.normal {
 
    #bell {
     width: 100px;
-  }
+   }
 
   #exclaim {
     width: 200px;
     padding-top: 15px;
   }
 
+  #gemcanary {
+     width: 200px;
+   }
 
 }
 
@@ -242,7 +252,7 @@ h3.normal {
     font-size: 12px;
   }
 
-   #app-img, #security-img { 
+  #app-img, #security-img { 
     height: 250px;
     background-size: 250px;
   }
@@ -360,6 +370,14 @@ section {
 #clients img:hover {
  opacity:0.4;
   filter:alpha(opacity=40)
+
+  /*opacity: 1.0;*/
+  /*filter:alpha(opacity=100)*/
+}
+
+#gemcanary-img img:hover {
+ opacity:0.7;
+  filter:alpha(opacity=70)
 
   /*opacity: 1.0;*/
   /*filter:alpha(opacity=100)*/
