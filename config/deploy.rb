@@ -6,7 +6,7 @@ ssh_options[:forward_agent] = true
 default_run_options[:pty] = true
 
 set :user, "deploy"
-role :web 'okayfail.com'
+role :web, 'okayfail.com'
 
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
