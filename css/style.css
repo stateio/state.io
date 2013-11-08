@@ -151,6 +151,10 @@ h3.normal {
   #gemcanary {
      width: 200px;
    }
+  
+   #includesec {
+    width: 200px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { 
