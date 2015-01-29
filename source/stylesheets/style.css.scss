@@ -39,7 +39,7 @@ section {
     font-size: 14px;
   }
 
-  h1, h2 {
+  h2, h3 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 200;
     margin-top: 0px;
@@ -52,9 +52,15 @@ section {
   }
 
   h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+   h3 {
     font-size: 18px;
     line-height: 24px;
   }
+
 
   img {
     max-height: 300px;
@@ -62,7 +68,7 @@ section {
 
   .hey {
     margin-bottom: 20px;
-    font-family: "Chunk";
+    // font-family: "Chunk";
     font-size: 45px;
   }
 
